@@ -47,7 +47,7 @@ app.use(mongoSanitize());
 const secret = process.env.SECRET || 'mysecret';
 
 const store = MongoStore.create({
-  mongoUrl: localUrl,
+  mongoUrl: dbUrl,
   crypto: {
     secret: secret,
     touchAfter: 24 * 3600 
@@ -107,6 +107,7 @@ app.use((err, req, res, next) => {
   res.status(statusCode).render("error", { err });
 });
 
-app.listen(3000, () => {
-  console.log("ポート3000でリクエスト待受中...");
+const port = process.env.PORT || 3000
+app.listen(port, () => {
+  console.log(`ポート${port}でリクエスト待受中...`);
 });
