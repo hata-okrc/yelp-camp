@@ -5,7 +5,7 @@
 
 キャンプ場の閲覧や投稿、レビューができるwebサイト
 
-Udemyの動画教材内のプロジェクトです（https://www.udemy.com/course/the-web-developer-bootcamp-2021-japan/）
+Udemyの動画教材内のプロジェクトです　https://www.udemy.com/course/the-web-developer-bootcamp-2021-japan/
 
 # 使用ツール等
 - HTML
