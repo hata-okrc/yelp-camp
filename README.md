@@ -19,6 +19,7 @@ Udemyの動画教材内のプロジェクトです　https://www.udemy.com/cours
 # 学んだ機能
 - CRUD
 - expressでのroutingやmiddlewareの実装
+- テンプレートエンジンを使ったページ生成
 - MongoDBのリレーション
 - ユーザー認証.認可
 - Herokuへのデプロイ 等
